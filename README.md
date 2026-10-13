@@ -1,17 +1,13 @@
-# FUTBOL ARENA — Lig Sitesi
+# FUTBOL ARENA güncellemesi
 
-Statik web uygulaması: `index.html`, `styles.css`, `players.js`, `app.js`.
+## Bu pakette yapılanlar
+- Lig oluştur penceresi ve form gönderimi daha dayanıklı hale getirildi.
+- Eski/bozuk yerel lig kaydı ekranın açılmasını engellemesin diye kontrol eklendi.
+- Takım sayısına göre yeterli futbolcu olup olmadığı doğrulanıyor (18 oyuncu/takım).
+- Maç motorunda hücum, defans ve genel güç birlikte ama farklı ağırlıklarla hesaplamaya katılıyor.
+- Kaleci savunması gol ihtimalini etkiliyor; orta saha puanları topa sahip olma ve pas isabetine katkı veriyor.
+- Golcü seçimi hücum/genel güç ağırlıklı yapılıyor.
+- `players.js` içindeki oyuncu isimleri ve puanlar değiştirilmedi.
 
-## Yayınlama
-1. GitHub deposunun ana dizinindeki aynı isimli dosyaları bu pakettekilerle değiştirin.
-2. `players.js` dosyası futbolcu veri tabanını taşır. Excel'deki futbolcu puanlarını değiştirmeyin.
-3. Değişiklikleri `main` dalına yükleyin. GitHub Pages otomatik yeniden yayınlar.
-4. Siteyi açıp tarayıcıda zorla yenileyin: Windows `Ctrl + Shift + R`.
-
-## Maç raporu
-Maç simülasyonu tamamlandığında maç detay penceresi açılır. Olay akışı; goller, golcü ve asist, sarı/kırmızı kartlar ve oyuncu değişiklikleri içerir. Takım istatistikleri; topa sahip olma, şut, isabetli şut, xG, korner, faul, kartlar ve pas isabetidir. Olaylar simülasyon tarafından üretilir; oyuncu hücum, defans ve genel güç puanları değiştirilmez.
-
-## Bilinen sınırlar
-- Veriler bu sürümde tarayıcı `localStorage` alanında saklanır; farklı cihazlar arasında ortak lig senkronizasyonu için Firebase bağlantısı gerekir.
-- Maç istatistikleri oyun simülasyonu çıktısıdır; gerçek maç verisi değildir.
-- Yeni sürüm eski sürümle aynı yerel depolama anahtarını kullanır. Önceden oynanan maçlarda ayrıntılı `details` alanı bulunmuyorsa yalnızca yeni simüle edilen maçlarda ayrıntı raporu çıkar.
+## Yayına alma
+`index.html`, `app.js`, `styles.css` ve `players.js` dosyalarını GitHub deposuna yükleyin. `players.js` dosyası paketteki oyuncu kayıtlarını korur; sizde daha yeni bir oyuncu listesi varsa o dosyanın üzerine yazmayın, yalnızca `app.js` dosyasını güncelleyin.
