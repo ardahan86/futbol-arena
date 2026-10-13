@@ -147,7 +147,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-017",
     "country": "Brazil",
     "name": "Rodrygo",
-    "position": "Kanat",
+    "position": "Sağ kanat",
     "attack": 89,
     "defense": 52,
     "overall": 86
@@ -318,7 +318,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-036",
     "country": "Argentina",
     "name": "Nicolás González",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 82,
     "defense": 55,
     "overall": 79
@@ -462,7 +462,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-052",
     "country": "France",
     "name": "Ousmane Dembélé",
-    "position": "Kanat",
+    "position": "Sağ kanat",
     "attack": 91,
     "defense": 44,
     "overall": 89
@@ -642,7 +642,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-072",
     "country": "Germany",
     "name": "Karim Adeyemi",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 86,
     "defense": 38,
     "overall": 83
@@ -966,7 +966,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-108",
     "country": "England",
     "name": "Marcus Rashford",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 86,
     "defense": 38,
     "overall": 83
@@ -1191,7 +1191,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-133",
     "country": "Portugal",
     "name": "João Cancelo",
-    "position": "Bek",
+    "position": "Sol bek",
     "attack": 82,
     "defense": 76,
     "overall": 79
@@ -1254,7 +1254,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-140",
     "country": "Portugal",
     "name": "João Palhinha",
-    "position": "Defansif orta saha",
+    "position": "Merkez orta saha",
     "attack": 55,
     "defense": 88,
     "overall": 85
@@ -1281,7 +1281,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-143",
     "country": "Portugal",
     "name": "Pedro Neto",
-    "position": "Kanat",
+    "position": "Sağ kanat",
     "attack": 87,
     "defense": 42,
     "overall": 84
@@ -1362,7 +1362,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-152",
     "country": "Netherlands",
     "name": "Lutsharel Geertruida",
-    "position": "Savunma",
+    "position": "Stoper",
     "attack": 62,
     "defense": 82,
     "overall": 78
@@ -1506,7 +1506,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-168",
     "country": "Belgium",
     "name": "Timothy Castagne",
-    "position": "Bek",
+    "position": "Sağ bek",
     "attack": 62,
     "defense": 80,
     "overall": 77
@@ -1551,7 +1551,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-173",
     "country": "Belgium",
     "name": "Amadou Onana",
-    "position": "Defansif orta saha",
+    "position": "Merkez orta saha",
     "attack": 58,
     "defense": 87,
     "overall": 84
@@ -1578,7 +1578,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-176",
     "country": "Belgium",
     "name": "Axel Witsel",
-    "position": "Defansif orta saha",
+    "position": "Merkez orta saha",
     "attack": 48,
     "defense": 84,
     "overall": 81
@@ -1587,7 +1587,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-177",
     "country": "Belgium",
     "name": "Jérémy Doku",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 91,
     "defense": 38,
     "overall": 88
@@ -1614,7 +1614,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-180",
     "country": "Belgium",
     "name": "Leandro Trossard",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 88,
     "defense": 40,
     "overall": 85
@@ -1713,7 +1713,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-191",
     "country": "Uruguay",
     "name": "Manuel Ugarte",
-    "position": "Defansif orta saha",
+    "position": "Merkez orta saha",
     "attack": 58,
     "defense": 87,
     "overall": 84
@@ -1767,7 +1767,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-197",
     "country": "Uruguay",
     "name": "Facundo Pellistri",
-    "position": "Kanat",
+    "position": "Sağ kanat",
     "attack": 80,
     "defense": 42,
     "overall": 77
@@ -1839,7 +1839,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-205",
     "country": "Türkiye",
     "name": "Ferdi Kadıoğlu",
-    "position": "Bek",
+    "position": "Sol bek",
     "attack": 76,
     "defense": 80,
     "overall": 77
@@ -1875,7 +1875,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-209",
     "country": "Türkiye",
     "name": "İsmail Yüksek",
-    "position": "Defansif orta saha",
+    "position": "Merkez orta saha",
     "attack": 55,
     "defense": 84,
     "overall": 80
@@ -1911,7 +1911,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-213",
     "country": "Türkiye",
     "name": "Kenan Yıldız",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 91,
     "defense": 43,
     "overall": 87
@@ -1920,7 +1920,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-214",
     "country": "Türkiye",
     "name": "Barış Alper Yılmaz",
-    "position": "Kanat",
+    "position": "Sağ kanat",
     "attack": 84,
     "defense": 55,
     "overall": 80
@@ -1929,7 +1929,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "id": "fa-215",
     "country": "Türkiye",
     "name": "Kerem Aktürkoğlu",
-    "position": "Kanat",
+    "position": "Sol kanat",
     "attack": 87,
     "defense": 36,
     "overall": 80
