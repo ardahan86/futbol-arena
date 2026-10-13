@@ -1,11 +1,15 @@
-# Futbol Arena – Maç motoru güncellemesi
+# FUTBOL ARENA – Güncel site paketi
 
-- Maç simülasyonunda şut sayısı, isabet oranı ve bitiricilik birbirinden ayrıldı.
-- Hücum gücü, rakip savunması, orta saha ve kaleci değerleri gol üretimini etkiliyor.
-- Ev sahibi avantajı küçük bir etki olarak eklendi.
-- xG şut hacmi ve hücum-savunma dengesinden hesaplanıyor; gerçek skorla aynı olması gerekmiyor.
-- İstatistikler ve olaylar mevcut maç raporu arayüzüyle uyumlu tutuldu.
-- `players.js` ve futbolcu puanları değiştirilmedi.
+Bu paket mevcut Lig Merkezi arayüzünü, stillerini ve maç simülasyon motorunu korur; oyuncu verisini 300 oyunculuk güncel players.js dosyasına bağlar.
 
-## Kurulum
-ZIP'i açıp sitenin mevcut dosyalarıyla karşılaştırın. Güncel oyuncu verileriniz farklıysa `players.js` dosyanızın üzerine yazmayın. Değişiklikler canlı siteye kendiliğinden yüklenmez; GitHub deposuna yükleyip yayınlamanız gerekir.
+## GitHub'a yükleme
+1. Depodaki mevcut dosyaların yedeğini al.
+2. ZIP içindeki `FUTBOL_ARENA_arma_guncelleme/` klasörünün içindeki dört dosyayı (`index.html`, `styles.css`, `app.js`, `players.js`) deponun kök dizinine yükle. Klasörün kendisini değil, içindeki dosyaları yükle.
+3. Commit changes yap ve GitHub Pages dağıtımının tamamlanmasını bekle.
+4. Siteyi `Ctrl+Shift+R` ile yenile.
+
+## Korunan davranış
+- Maç simülasyon kodu değiştirilmedi.
+- Kayıtlı lig verisi (`league`) localStorage'dan yüklenmeye devam eder.
+- Eski yerel oyuncu önbelleği yeni 300 oyunculuk listeyi ezmesin diye artık yüklenmez.
+- Eski kadro seçimleri eski oyuncu kimliklerine bağlıysa yeni havuzdan kadroları yeniden seçmek gerekebilir.
