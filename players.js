@@ -6,7 +6,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 18,
     "defense": 91,
-    "overall": 88
+    "overall": 87
   },
   {
     "id": "fa-002",
@@ -15,7 +15,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 20,
     "defense": 88,
-    "overall": 85
+    "overall": 84
   },
   {
     "id": "fa-003",
@@ -33,7 +33,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 38,
     "defense": 88,
-    "overall": 85
+    "overall": 86
   },
   {
     "id": "fa-005",
@@ -42,7 +42,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 45,
     "defense": 86,
-    "overall": 83
+    "overall": 84
   },
   {
     "id": "fa-006",
@@ -51,7 +51,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 35,
     "defense": 87,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-007",
@@ -69,7 +69,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 70,
     "defense": 76,
-    "overall": 73
+    "overall": 75
   },
   {
     "id": "fa-009",
@@ -150,7 +150,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 89,
     "defense": 52,
-    "overall": 86
+    "overall": 85
   },
   {
     "id": "fa-018",
@@ -168,7 +168,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 15,
     "defense": 90,
-    "overall": 86
+    "overall": 85
   },
   {
     "id": "fa-020",
@@ -186,7 +186,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 50,
     "defense": 89,
-    "overall": 83
+    "overall": 82
   },
   {
     "id": "fa-022",
@@ -195,7 +195,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 55,
     "defense": 85,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-023",
@@ -231,7 +231,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 70,
     "defense": 78,
-    "overall": 77
+    "overall": 79
   },
   {
     "id": "fa-027",
@@ -240,7 +240,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 82,
     "defense": 82,
-    "overall": 82
+    "overall": 84
   },
   {
     "id": "fa-028",
@@ -249,7 +249,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 84,
     "defense": 79,
-    "overall": 82
+    "overall": 84
   },
   {
     "id": "fa-029",
@@ -267,7 +267,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 70,
     "defense": 80,
-    "overall": 78
+    "overall": 79
   },
   {
     "id": "fa-031",
@@ -294,7 +294,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 98,
     "defense": 35,
-    "overall": 90
+    "overall": 92
   },
   {
     "id": "fa-034",
@@ -321,7 +321,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 82,
     "defense": 55,
-    "overall": 79
+    "overall": 80
   },
   {
     "id": "fa-037",
@@ -330,7 +330,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 15,
     "defense": 90,
-    "overall": 87
+    "overall": 85
   },
   {
     "id": "fa-038",
@@ -339,7 +339,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 15,
     "defense": 83,
-    "overall": 80
+    "overall": 78
   },
   {
     "id": "fa-039",
@@ -348,7 +348,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 55,
     "defense": 91,
-    "overall": 88
+    "overall": 87
   },
   {
     "id": "fa-040",
@@ -357,7 +357,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 48,
     "defense": 88,
-    "overall": 85
+    "overall": 86
   },
   {
     "id": "fa-041",
@@ -366,7 +366,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 50,
     "defense": 85,
-    "overall": 83
+    "overall": 88
   },
   {
     "id": "fa-042",
@@ -375,7 +375,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 70,
     "defense": 87,
-    "overall": 84
+    "overall": 85
   },
   {
     "id": "fa-043",
@@ -384,7 +384,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 82,
     "defense": 78,
-    "overall": 80
+    "overall": 82
   },
   {
     "id": "fa-044",
@@ -411,7 +411,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 70,
     "defense": 86,
-    "overall": 83
+    "overall": 84
   },
   {
     "id": "fa-047",
@@ -420,7 +420,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 72,
     "defense": 82,
-    "overall": 80
+    "overall": 83
   },
   {
     "id": "fa-048",
@@ -429,7 +429,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 72,
     "defense": 82,
-    "overall": 80
+    "overall": 81
   },
   {
     "id": "fa-049",
@@ -438,7 +438,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 65,
     "defense": 82,
-    "overall": 79
+    "overall": 80
   },
   {
     "id": "fa-050",
@@ -447,7 +447,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 67,
     "defense": 81,
-    "overall": 78
+    "overall": 80
   },
   {
     "id": "fa-051",
@@ -465,7 +465,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 91,
     "defense": 44,
-    "overall": 89
+    "overall": 90
   },
   {
     "id": "fa-053",
@@ -483,7 +483,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 88,
     "defense": 42,
-    "overall": 85
+    "overall": 84
   },
   {
     "id": "fa-055",
@@ -492,7 +492,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 16,
     "defense": 88,
-    "overall": 85
+    "overall": 84
   },
   {
     "id": "fa-056",
@@ -555,7 +555,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 72,
     "defense": 79,
-    "overall": 77
+    "overall": 79
   },
   {
     "id": "fa-063",
@@ -564,7 +564,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 92,
     "defense": 50,
-    "overall": 89
+    "overall": 87
   },
   {
     "id": "fa-064",
@@ -573,7 +573,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 94,
     "defense": 48,
-    "overall": 89
+    "overall": 86
   },
   {
     "id": "fa-065",
@@ -582,7 +582,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 62,
     "defense": 81,
-    "overall": 78
+    "overall": 81
   },
   {
     "id": "fa-066",
@@ -591,7 +591,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 70,
     "defense": 80,
-    "overall": 77
+    "overall": 78
   },
   {
     "id": "fa-067",
@@ -636,7 +636,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 88,
     "defense": 35,
-    "overall": 85
+    "overall": 82
   },
   {
     "id": "fa-072",
@@ -645,7 +645,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 86,
     "defense": 38,
-    "overall": 83
+    "overall": 82
   },
   {
     "id": "fa-073",
@@ -654,7 +654,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 88,
-    "overall": 85
+    "overall": 84
   },
   {
     "id": "fa-074",
@@ -663,7 +663,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 14,
     "defense": 89,
-    "overall": 86
+    "overall": 87
   },
   {
     "id": "fa-075",
@@ -672,7 +672,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 42,
     "defense": 86,
-    "overall": 83
+    "overall": 84
   },
   {
     "id": "fa-076",
@@ -681,7 +681,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 38,
     "defense": 84,
-    "overall": 81
+    "overall": 82
   },
   {
     "id": "fa-077",
@@ -708,7 +708,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 68,
     "defense": 86,
-    "overall": 83
+    "overall": 84
   },
   {
     "id": "fa-080",
@@ -717,7 +717,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 83,
     "defense": 78,
-    "overall": 80
+    "overall": 81
   },
   {
     "id": "fa-081",
@@ -735,7 +735,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 86,
     "defense": 80,
-    "overall": 83
+    "overall": 89
   },
   {
     "id": "fa-083",
@@ -744,7 +744,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 74,
     "defense": 83,
-    "overall": 80
+    "overall": 82
   },
   {
     "id": "fa-084",
@@ -753,7 +753,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 64,
     "defense": 87,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-085",
@@ -762,7 +762,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 78,
     "defense": 83,
-    "overall": 80
+    "overall": 83
   },
   {
     "id": "fa-086",
@@ -771,7 +771,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 74,
     "defense": 83,
-    "overall": 80
+    "overall": 82
   },
   {
     "id": "fa-087",
@@ -780,7 +780,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 96,
     "defense": 42,
-    "overall": 93
+    "overall": 91
   },
   {
     "id": "fa-088",
@@ -789,7 +789,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 91,
     "defense": 45,
-    "overall": 88
+    "overall": 85
   },
   {
     "id": "fa-089",
@@ -816,7 +816,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 15,
     "defense": 87,
-    "overall": 84
+    "overall": 82
   },
   {
     "id": "fa-092",
@@ -825,7 +825,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 83,
-    "overall": 80
+    "overall": 78
   },
   {
     "id": "fa-093",
@@ -870,7 +870,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 72,
     "defense": 84,
-    "overall": 81
+    "overall": 82
   },
   {
     "id": "fa-098",
@@ -879,7 +879,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 88,
     "defense": 72,
-    "overall": 85
+    "overall": 86
   },
   {
     "id": "fa-099",
@@ -906,7 +906,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 94,
     "defense": 48,
-    "overall": 89
+    "overall": 88
   },
   {
     "id": "fa-102",
@@ -915,7 +915,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 92,
     "defense": 48,
-    "overall": 88
+    "overall": 87
   },
   {
     "id": "fa-103",
@@ -933,7 +933,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 64,
     "defense": 82,
-    "overall": 89
+    "overall": 83
   },
   {
     "id": "fa-105",
@@ -951,7 +951,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 93,
     "defense": 53,
-    "overall": 83
+    "overall": 87
   },
   {
     "id": "fa-107",
@@ -960,7 +960,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 86,
     "defense": 48,
-    "overall": 83
+    "overall": 85
   },
   {
     "id": "fa-108",
@@ -969,7 +969,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 86,
     "defense": 38,
-    "overall": 83
+    "overall": 85
   },
   {
     "id": "fa-109",
@@ -978,7 +978,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 91,
-    "overall": 87
+    "overall": 88
   },
   {
     "id": "fa-110",
@@ -996,7 +996,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 55,
     "defense": 89,
-    "overall": 86
+    "overall": 84
   },
   {
     "id": "fa-112",
@@ -1005,7 +1005,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 68,
     "defense": 83,
-    "overall": 80
+    "overall": 82
   },
   {
     "id": "fa-113",
@@ -1014,7 +1014,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 84,
     "defense": 76,
-    "overall": 81
+    "overall": 83
   },
   {
     "id": "fa-114",
@@ -1095,7 +1095,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 65,
     "defense": 83,
-    "overall": 80
+    "overall": 81
   },
   {
     "id": "fa-123",
@@ -1104,7 +1104,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 85,
     "defense": 42,
-    "overall": 81
+    "overall": 82
   },
   {
     "id": "fa-124",
@@ -1113,7 +1113,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 88,
     "defense": 38,
-    "overall": 85
+    "overall": 81
   },
   {
     "id": "fa-125",
@@ -1122,7 +1122,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 85,
     "defense": 38,
-    "overall": 85
+    "overall": 80
   },
   {
     "id": "fa-126",
@@ -1131,7 +1131,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 84,
     "defense": 40,
-    "overall": 80
+    "overall": 81
   },
   {
     "id": "fa-127",
@@ -1140,7 +1140,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 15,
     "defense": 90,
-    "overall": 87
+    "overall": 86
   },
   {
     "id": "fa-128",
@@ -1149,7 +1149,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 83,
-    "overall": 80
+    "overall": 79
   },
   {
     "id": "fa-129",
@@ -1158,7 +1158,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 48,
     "defense": 92,
-    "overall": 89
+    "overall": 87
   },
   {
     "id": "fa-130",
@@ -1185,7 +1185,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 75,
     "defense": 86,
-    "overall": 83
+    "overall": 86
   },
   {
     "id": "fa-133",
@@ -1193,8 +1193,8 @@ window.FUTBOL_ARENA_PLAYERS=[
     "name": "João Cancelo",
     "position": "Sol bek",
     "attack": 82,
-    "defense": 76,
-    "overall": 79
+    "defense": 77,
+    "overall": 84
   },
   {
     "id": "fa-134",
@@ -1221,7 +1221,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 89,
     "defense": 72,
-    "overall": 86
+    "overall": 85
   },
   {
     "id": "fa-137",
@@ -1230,7 +1230,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 80,
     "defense": 83,
-    "overall": 82
+    "overall": 84
   },
   {
     "id": "fa-138",
@@ -1239,7 +1239,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 75,
     "defense": 85,
-    "overall": 80
+    "overall": 85
   },
   {
     "id": "fa-139",
@@ -1248,7 +1248,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 70,
     "defense": 84,
-    "overall": 81
+    "overall": 82
   },
   {
     "id": "fa-140",
@@ -1275,7 +1275,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 93,
     "defense": 42,
-    "overall": 89
+    "overall": 87
   },
   {
     "id": "fa-143",
@@ -1284,7 +1284,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 87,
     "defense": 42,
-    "overall": 84
+    "overall": 85
   },
   {
     "id": "fa-144",
@@ -1293,7 +1293,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 86,
     "defense": 38,
-    "overall": 83
+    "overall": 84
   },
   {
     "id": "fa-145",
@@ -1302,7 +1302,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 13,
     "defense": 86,
-    "overall": 83
+    "overall": 82
   },
   {
     "id": "fa-146",
@@ -1311,7 +1311,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 83,
-    "overall": 80
+    "overall": 79
   },
   {
     "id": "fa-147",
@@ -1320,7 +1320,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 48,
     "defense": 94,
-    "overall": 91
+    "overall": 90
   },
   {
     "id": "fa-148",
@@ -1347,7 +1347,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 63,
     "defense": 85,
-    "overall": 82
+    "overall": 81
   },
   {
     "id": "fa-151",
@@ -1356,7 +1356,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 76,
     "defense": 82,
-    "overall": 79
+    "overall": 82
   },
   {
     "id": "fa-152",
@@ -1383,7 +1383,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 80,
     "defense": 81,
-    "overall": 80
+    "overall": 81
   },
   {
     "id": "fa-155",
@@ -1401,7 +1401,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 79,
     "defense": 78,
-    "overall": 78
+    "overall": 79
   },
   {
     "id": "fa-157",
@@ -1410,7 +1410,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 89,
     "defense": 48,
-    "overall": 86
+    "overall": 84
   },
   {
     "id": "fa-158",
@@ -1419,7 +1419,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 70,
     "defense": 78,
-    "overall": 74
+    "overall": 76
   },
   {
     "id": "fa-159",
@@ -1437,7 +1437,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 88,
     "defense": 35,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-161",
@@ -1464,7 +1464,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 93,
-    "overall": 90
+    "overall": 89
   },
   {
     "id": "fa-164",
@@ -1473,7 +1473,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 83,
-    "overall": 80
+    "overall": 79
   },
   {
     "id": "fa-165",
@@ -1518,7 +1518,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 70,
     "defense": 76,
-    "overall": 73
+    "overall": 77
   },
   {
     "id": "fa-170",
@@ -1527,7 +1527,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 65,
     "defense": 78,
-    "overall": 72
+    "overall": 76
   },
   {
     "id": "fa-171",
@@ -1536,7 +1536,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 95,
     "defense": 58,
-    "overall": 89
+    "overall": 88
   },
   {
     "id": "fa-172",
@@ -1545,7 +1545,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 78,
     "defense": 79,
-    "overall": 78
+    "overall": 80
   },
   {
     "id": "fa-173",
@@ -1554,7 +1554,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 58,
     "defense": 87,
-    "overall": 84
+    "overall": 81
   },
   {
     "id": "fa-174",
@@ -1563,7 +1563,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 84,
     "defense": 58,
-    "overall": 81
+    "overall": 82
   },
   {
     "id": "fa-175",
@@ -1572,7 +1572,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 62,
     "defense": 78,
-    "overall": 75
+    "overall": 76
   },
   {
     "id": "fa-176",
@@ -1581,7 +1581,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 48,
     "defense": 84,
-    "overall": 81
+    "overall": 80
   },
   {
     "id": "fa-177",
@@ -1599,7 +1599,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 91,
     "defense": 32,
-    "overall": 87
+    "overall": 82
   },
   {
     "id": "fa-179",
@@ -1608,7 +1608,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 91,
     "defense": 35,
-    "overall": 88
+    "overall": 86
   },
   {
     "id": "fa-180",
@@ -1617,7 +1617,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 88,
     "defense": 40,
-    "overall": 85
+    "overall": 83
   },
   {
     "id": "fa-181",
@@ -1626,7 +1626,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 84,
-    "overall": 81
+    "overall": 79
   },
   {
     "id": "fa-182",
@@ -1635,7 +1635,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 10,
     "defense": 82,
-    "overall": 79
+    "overall": 78
   },
   {
     "id": "fa-183",
@@ -1644,7 +1644,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 52,
     "defense": 91,
-    "overall": 88
+    "overall": 83
   },
   {
     "id": "fa-184",
@@ -1653,7 +1653,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 40,
     "defense": 86,
-    "overall": 83
+    "overall": 81
   },
   {
     "id": "fa-185",
@@ -1680,7 +1680,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 60,
     "defense": 78,
-    "overall": 75
+    "overall": 76
   },
   {
     "id": "fa-188",
@@ -1716,7 +1716,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 58,
     "defense": 87,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-192",
@@ -1752,7 +1752,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 90,
     "defense": 38,
-    "overall": 87
+    "overall": 85
   },
   {
     "id": "fa-196",
@@ -1761,7 +1761,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 87,
     "defense": 25,
-    "overall": 84
+    "overall": 83
   },
   {
     "id": "fa-197",
@@ -1770,7 +1770,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 80,
     "defense": 42,
-    "overall": 77
+    "overall": 78
   },
   {
     "id": "fa-198",
@@ -1779,7 +1779,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 78,
     "defense": 61,
-    "overall": 75
+    "overall": 78
   },
   {
     "id": "fa-199",
@@ -1788,7 +1788,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 12,
     "defense": 87,
-    "overall": 84
+    "overall": 79
   },
   {
     "id": "fa-200",
@@ -1797,7 +1797,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Kaleci",
     "attack": 10,
     "defense": 81,
-    "overall": 78
+    "overall": 76
   },
   {
     "id": "fa-201",
@@ -1806,7 +1806,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 38,
     "defense": 85,
-    "overall": 82
+    "overall": 75
   },
   {
     "id": "fa-202",
@@ -1815,7 +1815,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 42,
     "defense": 83,
-    "overall": 80
+    "overall": 78
   },
   {
     "id": "fa-203",
@@ -1824,7 +1824,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Stoper",
     "attack": 32,
     "defense": 78,
-    "overall": 75
+    "overall": 74
   },
   {
     "id": "fa-204",
@@ -1842,7 +1842,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 76,
     "defense": 80,
-    "overall": 77
+    "overall": 80
   },
   {
     "id": "fa-206",
@@ -1851,7 +1851,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol bek",
     "attack": 58,
     "defense": 78,
-    "overall": 75
+    "overall": 76
   },
   {
     "id": "fa-207",
@@ -1860,7 +1860,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 86,
     "defense": 82,
-    "overall": 84
+    "overall": 80
   },
   {
     "id": "fa-208",
@@ -1869,7 +1869,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 82,
     "defense": 75,
-    "overall": 78
+    "overall": 79
   },
   {
     "id": "fa-209",
@@ -1878,7 +1878,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 55,
     "defense": 84,
-    "overall": 80
+    "overall": 76
   },
   {
     "id": "fa-210",
@@ -1887,7 +1887,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ bek",
     "attack": 58,
     "defense": 81,
-    "overall": 78
+    "overall": 75
   },
   {
     "id": "fa-211",
@@ -1896,7 +1896,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Merkez orta saha",
     "attack": 58,
     "defense": 81,
-    "overall": 78
+    "overall": 77
   },
   {
     "id": "fa-212",
@@ -1905,7 +1905,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Ofansif orta saha",
     "attack": 91,
     "defense": 42,
-    "overall": 87
+    "overall": 84
   },
   {
     "id": "fa-213",
@@ -1914,7 +1914,7 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sol kanat",
     "attack": 91,
     "defense": 43,
-    "overall": 87
+    "overall": 83
   },
   {
     "id": "fa-214",
@@ -1923,16 +1923,16 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Sağ kanat",
     "attack": 84,
     "defense": 55,
-    "overall": 80
+    "overall": 79
   },
   {
     "id": "fa-215",
     "country": "Türkiye",
     "name": "Kerem Aktürkoğlu",
     "position": "Sol kanat",
-    "attack": 87,
+    "attack": 82,
     "defense": 36,
-    "overall": 80
+    "overall": 78
   },
   {
     "id": "fa-216",
@@ -1941,6 +1941,6 @@ window.FUTBOL_ARENA_PLAYERS=[
     "position": "Santrfor",
     "attack": 82,
     "defense": 34,
-    "overall": 78
+    "overall": 77
   }
 ];
