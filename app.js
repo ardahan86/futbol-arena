@@ -31,22 +31,31 @@ function sim(id){
  }
  function makeSide(team,own,opp,homeAdv){
   const r=teamRatings(own,opp),or=teamRatings(opp,own);
-  const attackEdge=(r.attack-or.defense)*.014+(r.midfield-or.midfield)*.003+(homeAdv?.10:0);
-  const strength=clamp(1+attackEdge,.55,1.55);
-  const shots=clamp(Math.round((9+Math.random()*5)*strength),3,24);
-  const onTarget=clamp(Math.round(shots*(.27+Math.random()*.20+(r.attack-or.defense)*.0015)),1,shots);
-  const keeperDef=val(or.keeper,'defense')*.72+val(or.keeper,'overall')*.28;
-  const chanceBase=clamp(.19+(r.attack-keeperDef)*.0035,.07,.48);
-  let xg=0,goals=0,events=[];
+  // Hücum üstünlüğü şut hacmini ve şut kalitesini etkiler; tek başına skoru belirlemez.
+  const attackDiff=r.attack-or.defense;
+  const midfieldDiff=r.midfield-or.midfield;
+  const edge=clamp(attackDiff*.012+midfieldDiff*.004+(homeAdv?.08:0),-.42,.48);
+  const strength=clamp(1+edge,.72,1.34);
+  const shots=clamp(Math.round((10+Math.random()*7)*strength),5,25);
+  const targetRate=clamp(.30+attackDiff*.0012+midfieldDiff*.0007+(Math.random()*.10-.05),.22,.49);
+  const onTarget=clamp(Math.round(shots*targetRate),0,shots);
+  const keeperDef=val(or.keeper,'defense')*.55+val(or.keeper,'overall')*.45;
+  // İsabetli şutların gole dönüşme ihtimali; güçlü kaleciler bunu azaltır.
+  const finishChance=clamp(.34+(r.attack-keeperDef)*.003+(r.attack-75)*.001+(Math.random()*.08-.04),.19,.52);
+  let goals=0,events=[];
   const attackers=own.filter(p=>!pos(p).includes('kaleci'));
-  function scorerPick(){let pool=attackers.length?attackers:own;let weights=pool.map(p=>Math.max(1,val(p,'attack')*.75+val(p,'overall')*.25));let total=weights.reduce((a,b)=>a+b,0),roll=Math.random()*total;for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<=0)return pool[i]}return pool[pool.length-1]}
+  function scorerPick(){let pool=attackers.length?attackers:own;let weights=pool.map(p=>Math.max(1,val(p,'attack')*.72+val(p,'overall')*.28));let total=weights.reduce((a,b)=>a+b,0),roll=Math.random()*total;for(let i=0;i<pool.length;i++){roll-=weights[i];if(roll<=0)return pool[i]}return pool[pool.length-1]}
   for(let i=0;i<onTarget;i++){
-   const chance=clamp(chanceBase+(Math.random()-.5)*.18,.025,.65);xg+=chance;
-   if(Math.random()<chance){goals++;const scorer=scorerPick(),assister=Math.random()<.68?pick(attackers.filter(p=>p.id!==scorer?.id)):null;events.push({minute:1+Math.floor(Math.random()*90),type:'goal',team:team.id,player:scorer?.id||null,assist:assister?.id||null,text:`⚽ GOL! ${playerLabel(scorer)}${assister?' · Asist: '+assister.name:''}`})}
+   // Her isabetli şut ayrı değerlendirilir; güçlü takımların gol beklentisi artar ama garanti gol yoktur.
+   const quality=clamp(finishChance+(Math.random()-.5)*.20,.10,.62);
+   if(Math.random()<quality){goals++;const scorer=scorerPick(),assister=Math.random()<.70?pick(attackers.filter(p=>p.id!==scorer?.id)):null;events.push({minute:1+Math.floor(Math.random()*90),type:'goal',team:team.id,player:scorer?.id||null,assist:assister?.id||null,text:`⚽ GOL! ${playerLabel(scorer)}${assister?' · Asist: '+assister.name:''}`})}
   }
-  const possession=clamp(Math.round(50+(r.midfield-or.midfield)*.22+(r.attack-or.attack)*.08+(Math.random()*10-5)),30,70);
-  return {goals,shots,onTarget,xg:+xg.toFixed(2),possession,corners:Math.max(0,Math.round(shots*.25+Math.random()*3)),fouls:Math.round(8+Math.random()*10),yellow:Math.round(Math.random()*3),red:Math.random()<.035?1:0,pass:clamp(Math.round(76+(r.midfield-75)*.25+Math.random()*12),60,96),events};
+  // xG, şut hacmi ve şut kalitesinin toplamından hesaplanır; skorla birebir aynı olmak zorunda değildir.
+  const xg=+(shots*clamp(.105+(attackDiff*.0012)+(homeAdv?.006:0),.055,.18)).toFixed(2);
+  const possession=clamp(Math.round(50+midfieldDiff*.24+attackDiff*.07+(Math.random()*12-6)+(homeAdv?2:0)),28,72);
+  return {goals,shots,onTarget,xg,possession,corners:Math.max(0,Math.round(shots*.29+Math.random()*3-0.5)),fouls:Math.round(9+Math.random()*12),yellow:Math.round(Math.random()*4),red:Math.random()<.025?1:0,pass:clamp(Math.round(77+(r.midfield-75)*.25+Math.random()*12),60,97),events};
  }
+
  let hs=makeSide(homeTeam,home,away,true),as=makeSide(awayTeam,away,home,false);
  // Olay sayısı skordaki gol sayısıyla aynı tutulur.
  const syncGoals=(side,team,own)=>{while(side.events.filter(e=>e.type==='goal').length>side.goals){const i=side.events.findIndex(e=>e.type==='goal');side.events.splice(i,1)}while(side.events.filter(e=>e.type==='goal').length<side.goals){const scorer=pick(own.filter(p=>!norm(p.position).includes('kaleci'))),assister=Math.random()<.68?pick(own.filter(p=>p.id!==scorer?.id&&!norm(p.position).includes('kaleci'))):null;side.events.push({minute:1+Math.floor(Math.random()*90),type:'goal',team:team.id,player:scorer?.id||null,assist:assister?.id||null,text:`⚽ GOL! ${playerLabel(scorer)}${assister?' · Asist: '+assister.name:''}`})}};
