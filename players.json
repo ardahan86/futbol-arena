@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "Futbol_Arena_2026_27_Puanli_Oyuncu_Veritabani",
+  "source": "Futbol_Arena_oyuncu_duzenleme",
   "playersCount": 300,
   "players": [
     {
@@ -38,7 +38,7 @@
       "club": "Galatasaray",
       "shirtNumber": 4,
       "name": "Wilfried Singo",
-      "position": "Sağ bek/Stoper",
+      "position": "Sağ bek",
       "attack": 65,
       "defense": 84,
       "overall": 82
@@ -78,7 +78,7 @@
       "club": "Galatasaray",
       "shirtNumber": 8,
       "name": "Kaan Ayhan",
-      "position": "Stoper/Sağ bek",
+      "position": "Sağ bek",
       "attack": 61,
       "defense": 80,
       "overall": 78
@@ -118,7 +118,7 @@
       "club": "Galatasaray",
       "shirtNumber": 12,
       "name": "Lucas Torreira",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 78,
       "defense": 85,
       "overall": 84
@@ -248,7 +248,7 @@
       "club": "Fenerbahçe",
       "shirtNumber": 5,
       "name": "Nathan Aké",
-      "position": "Stoper/Sol bek",
+      "position": "Stoper",
       "attack": 67,
       "defense": 86,
       "overall": 84
@@ -308,7 +308,7 @@
       "club": "Fenerbahçe",
       "shirtNumber": 11,
       "name": "İsmail Yüksek",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 74,
       "defense": 81,
       "overall": 80
@@ -338,7 +338,7 @@
       "club": "Fenerbahçe",
       "shirtNumber": 14,
       "name": "Levent Mercan",
-      "position": "Sol bek/Orta saha",
+      "position": "Sol bek",
       "attack": 74,
       "defense": 81,
       "overall": 81
@@ -388,7 +388,7 @@
       "club": "Fenerbahçe",
       "shirtNumber": 19,
       "name": "Dorgeles Nene",
-      "position": "Kanat",
+      "position": "Sol kanat",
       "attack": 89,
       "defense": 65,
       "overall": 80
@@ -508,7 +508,7 @@
       "club": "Beşiktaş",
       "shirtNumber": 11,
       "name": "Yasin Özcan",
-      "position": "Stoper/Sol bek",
+      "position": "Stoper",
       "attack": 61,
       "defense": 80,
       "overall": 78
@@ -518,7 +518,7 @@
       "club": "Beşiktaş",
       "shirtNumber": 12,
       "name": "Wilfred Ndidi",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 72,
       "defense": 79,
       "overall": 78
@@ -708,7 +708,7 @@
       "club": "Trabzonspor",
       "shirtNumber": 11,
       "name": "Batista Mendy",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 71,
       "defense": 78,
       "overall": 77
@@ -728,7 +728,7 @@
       "club": "Trabzonspor",
       "shirtNumber": 13,
       "name": "Fabinho",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 71,
       "defense": 78,
       "overall": 77
@@ -778,7 +778,7 @@
       "club": "Trabzonspor",
       "shirtNumber": 18,
       "name": "Aral Şimşir",
-      "position": "Kanat",
+      "position": "Sol kanat",
       "attack": 85,
       "defense": 61,
       "overall": 76
@@ -848,7 +848,7 @@
       "club": "Barcelona",
       "shirtNumber": 5,
       "name": "João Cancelo",
-      "position": "Sağ bek/Sol bek",
+      "position": "Sol bek",
       "attack": 77,
       "defense": 84,
       "overall": 84
@@ -938,7 +938,7 @@
       "club": "Barcelona",
       "shirtNumber": 14,
       "name": "Marc Bernal",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 78,
       "defense": 85,
       "overall": 84
@@ -988,7 +988,7 @@
       "club": "Barcelona",
       "shirtNumber": 19,
       "name": "Roony Bardghji",
-      "position": "Kanat",
+      "position": "Sol kanat",
       "attack": 92,
       "defense": 68,
       "overall": 83
@@ -1138,7 +1138,7 @@
       "club": "Real Madrid",
       "shirtNumber": 14,
       "name": "Aurélien Tchouaméni",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 81,
       "defense": 88,
       "overall": 87
@@ -1258,7 +1258,7 @@
       "club": "Inter",
       "shirtNumber": 6,
       "name": "Benjamin Pavard",
-      "position": "Stoper/Sağ bek",
+      "position": "Sağ bek",
       "attack": 67,
       "defense": 86,
       "overall": 84
@@ -1328,7 +1328,7 @@
       "club": "Inter",
       "shirtNumber": 13,
       "name": "Hakan Çalhanoğlu",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 82,
       "defense": 89,
       "overall": 88
@@ -1498,7 +1498,7 @@
       "club": "PSG",
       "shirtNumber": 10,
       "name": "Lucas Hernández",
-      "position": "Sol bek/Stoper",
+      "position": "Stoper",
       "attack": 66,
       "defense": 85,
       "overall": 83
@@ -1588,7 +1588,7 @@
       "club": "PSG",
       "shirtNumber": 19,
       "name": "Désiré Doué",
-      "position": "Kanat",
+      "position": "Sağ kanat",
       "attack": 94,
       "defense": 70,
       "overall": 85
@@ -1668,7 +1668,7 @@
       "club": "Bayern Münih",
       "shirtNumber": 7,
       "name": "Hiroki Ito",
-      "position": "Stoper/Sol bek",
+      "position": "Stoper",
       "attack": 68,
       "defense": 87,
       "overall": 85
@@ -1718,7 +1718,7 @@
       "club": "Bayern Münih",
       "shirtNumber": 12,
       "name": "Joshua Kimmich",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 83,
       "defense": 90,
       "overall": 89
@@ -1768,7 +1768,7 @@
       "club": "Bayern Münih",
       "shirtNumber": 17,
       "name": "Serge Gnabry",
-      "position": "Kanat",
+      "position": "Sağ kanat",
       "attack": 93,
       "defense": 69,
       "overall": 84
@@ -1858,7 +1858,7 @@
       "club": "Manchester City",
       "shirtNumber": 6,
       "name": "Joško Gvardiol",
-      "position": "Stoper/Sol bek",
+      "position": "Sol bek",
       "attack": 70,
       "defense": 89,
       "overall": 87
@@ -1898,7 +1898,7 @@
       "club": "Manchester City",
       "shirtNumber": 10,
       "name": "Matheus Nunes",
-      "position": "Sağ bek/Orta saha",
+      "position": "Sağ bek",
       "attack": 78,
       "defense": 85,
       "overall": 85
@@ -1978,7 +1978,7 @@
       "club": "Manchester City",
       "shirtNumber": 18,
       "name": "Antoine Semenyo",
-      "position": "Kanat",
+      "position": "Sağ kanat",
       "attack": 93,
       "defense": 69,
       "overall": 84
@@ -1998,7 +1998,7 @@
       "club": "Manchester City",
       "shirtNumber": 20,
       "name": "Iliman Ndiaye",
-      "position": "Kanat",
+      "position": "Sol kanat",
       "attack": 93,
       "defense": 69,
       "overall": 84
@@ -2078,7 +2078,7 @@
       "club": "Arsenal",
       "shirtNumber": 8,
       "name": "Piero Hincapié",
-      "position": "Sol bek/Stoper",
+      "position": "Sol bek",
       "attack": 66,
       "defense": 85,
       "overall": 83
@@ -2128,7 +2128,7 @@
       "club": "Arsenal",
       "shirtNumber": 13,
       "name": "Martín Zubimendi",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 80,
       "defense": 87,
       "overall": 86
@@ -2258,7 +2258,7 @@
       "club": "Liverpool",
       "shirtNumber": 6,
       "name": "Joe Gomez",
-      "position": "Stoper/Sağ bek",
+      "position": "Stoper",
       "attack": 68,
       "defense": 87,
       "overall": 85
@@ -2358,7 +2358,7 @@
       "club": "Liverpool",
       "shirtNumber": 16,
       "name": "Wataru Endo",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 78,
       "defense": 85,
       "overall": 84
@@ -2368,7 +2368,7 @@
       "club": "Liverpool",
       "shirtNumber": 17,
       "name": "Federico Chiesa",
-      "position": "Kanat",
+      "position": "Sağ kanat",
       "attack": 93,
       "defense": 69,
       "overall": 84
@@ -2498,7 +2498,7 @@
       "club": "Atlético Madrid",
       "shirtNumber": 10,
       "name": "Marcos Llorente",
-      "position": "Sağ bek/Orta saha",
+      "position": "Sağ bek",
       "attack": 75,
       "defense": 82,
       "overall": 82
@@ -2528,7 +2528,7 @@
       "club": "Atlético Madrid",
       "shirtNumber": 13,
       "name": "Johnny Cardoso",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 76,
       "defense": 83,
       "overall": 82
@@ -2538,7 +2538,7 @@
       "club": "Atlético Madrid",
       "shirtNumber": 14,
       "name": "Morten Hjulmand",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 76,
       "defense": 83,
       "overall": 82
@@ -2678,7 +2678,7 @@
       "club": "Juventus",
       "shirtNumber": 8,
       "name": "Pierre Kalulu",
-      "position": "Sağ bek/Stoper",
+      "position": "Stoper",
       "attack": 64,
       "defense": 83,
       "overall": 81
@@ -2708,7 +2708,7 @@
       "club": "Juventus",
       "shirtNumber": 11,
       "name": "Manuel Locatelli",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 75,
       "defense": 82,
       "overall": 81
@@ -2948,7 +2948,7 @@
       "club": "Manchester United",
       "shirtNumber": 15,
       "name": "Manuel Ugarte",
-      "position": "Defansif orta saha",
+      "position": "Merkez orta saha",
       "attack": 74,
       "defense": 81,
       "overall": 80
@@ -2988,7 +2988,7 @@
       "club": "Manchester United",
       "shirtNumber": 19,
       "name": "Matheus Cunha",
-      "position": "Forvet arkası",
+      "position": "Ofansif orta saha",
       "attack": 79,
       "defense": 78,
       "overall": 79
